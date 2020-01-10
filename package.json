@@ -1,0 +1,52 @@
+{
+  "name": "edm00se-uses",
+  "version": "1.0.0",
+  "description": "a page covering the tech stack used by @edm00se",
+  "main": "src/index.html",
+  "scripts": {
+    "dev": "parcel src/index.html --open",
+    "build": "parcel build src/index.html",
+    "build:ci": "parcel build src/index.html --public-url . --log-level 2",
+    "test": "jest",
+    "test:coverage": "npm run test -- --coverage",
+    "postinstall": "rm -rf .cache && node postinstall.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.6.0",
+    "@babel/polyfill": "^7.6.0",
+    "@babel/preset-env": "^7.6.2",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-svelte": "^4.0.4",
+    "svelte": "^3.12.1",
+    "svelte-jest": "^0.3.0"
+  },
+  "keywords": [
+    "uses",
+    "svelte",
+    "parcel",
+    "starter",
+    "jest"
+  ],
+  "licence": "MIT",
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "ie 11",
+    "not ie <= 10"
+  ],
+  "jest": {
+    "transform": {
+      "\\.js$": "babel-jest",
+      "\\.svelte$": "svelte-jest"
+    },
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "svelte"
+    ]
+  }
+}
