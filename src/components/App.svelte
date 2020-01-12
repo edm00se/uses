@@ -8,7 +8,6 @@
 			<ul>
 				<li><a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer">VS Code</a>, currently the best DX and is speedy</li>
 				<li><a href="https://hyper.is/" target="_blank" rel="noopener noreferrer">Hyper</a>, for a sweet terminal</li>
-				<li><a href="" target="_blank" rel="noopener noreferrer"></a></li>
 			</ul>
 		</div>
 
@@ -22,6 +21,8 @@
 				<li><a href="http://typescriptlang.org/" target="_blank" rel="noopener noreferrer">TypeScript</a>, on the big stuff</li>
 				<li><a href="https://sass-lang.com/documentation/syntax" target="_blank" rel="noopener noreferrer">scss</a>, by default</li>
 				<li><a href="https://jestjs.io/" target="_blank" rel="noopener noreferrer">jest</a>, for an excellent unit testing experience</li>
+				<li><a href="https://prettier.io/" target="_blank" rel="noopener noreferrer">Prettier</a>, to keep my code clean and readable</li>
+				<li><a href="https://eslint.org/" target="_blank" rel="noopener noreferrer">eslint</a>, to keep my ducks in a row</li>
 			</ul>
 		</div>
 
@@ -43,6 +44,7 @@
 				<li><a href="https://www.hermanmiller.com/products/seating/office-chairs/aeron-chairs/" target="_blank" rel="noopener noreferrer">Herman Miller Aeron chair</a></li>
 				<li>sitting/standing desk</li>
 				<li><a href="https://www.nikonusa.com/en/nikon-products/product/dslr-cameras/d7500.html" target="_blank" rel="noopener noreferrer">Nikon D7500</a>, for photography</li>
+				<li><a href="https://www.creality3d.shop/collections/cr-series/products/creality-cr-10-3d-printer-prusa-i3-diy-kit-aluminum-large-print-size-300x300x400mm"  target="_blank" rel="noopener noreferrer">Creality CR-10</a>, for 3D printing</li>
 			</ul>
 		</div>
 
