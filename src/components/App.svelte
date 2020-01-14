@@ -4,10 +4,12 @@
 	<div class="stuff">
 
 		<div class="category">
-			<h3>Editor and Code Crafting</h3>
+			<h3>Code Crafting</h3>
 			<ul>
 				<li><a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer">VS Code</a>, currently the best DX and is speedy</li>
 				<li><a href="https://hyper.is/" target="_blank" rel="noopener noreferrer">Hyper</a>, for a sweet terminal</li>
+				<li><a href="https://github.com/edm00se/vue-parcel-starter" target="_blank" rel="noopener noreferrer">vue-parcel-starter</a>, for some preconfigured awesomeness with vue, parcel, jest, and more</li>
+				<li><a href="https://github.com/edm00se/svelte3-parcel-starter" target="_blank" rel="noopener noreferrer">svelte3-parcel-starter</a>, for some preconfigured awesomeness with svelte3, parcel, jest, and more</li>
 			</ul>
 		</div>
 
