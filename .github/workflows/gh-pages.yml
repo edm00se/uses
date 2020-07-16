@@ -21,6 +21,7 @@ jobs:
         npm ci
         npm run postinstall
         npm run build:ci
+        touch dist/.nojekyll
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v2.4.0
