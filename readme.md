@@ -27,8 +27,7 @@ Built from [edm00se/svelte3-parcel-starterstarter](https://github.com/edm00se/sv
 ## Credits
 
 - [svelte](https://svelte.dev/)
-- [parcel](https://parceljs.org/)
-- [parcel-plugin-svelte](https://github.com/DeMoorJasper/parcel-plugin-svelte/)
+- [svelte template](https://github.com/sveltejs/template)
 - [jest](https://jestjs.io/)
 - [svelte-jest](https://github.com/ktsn/svelte-jest)
 

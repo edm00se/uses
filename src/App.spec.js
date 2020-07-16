@@ -1,4 +1,5 @@
 import App from './App.svelte';
+// import { render, fireEvent } from '@testing-library/svelte';
 
 describe('App Component', () => {
   describe('Default Rendering', () => {

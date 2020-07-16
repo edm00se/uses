@@ -1,51 +1,49 @@
 {
-  "name": "edm00se-uses",
+  "name": "svelte-app",
   "version": "1.0.0",
-  "description": "a page covering the tech stack used by @edm00se",
-  "main": "src/index.html",
   "scripts": {
-    "dev": "parcel src/index.html --open",
-    "build": "parcel build src/index.html",
-    "build:ci": "parcel build src/index.html --public-url . --log-level 2",
-    "test": "jest",
-    "test:coverage": "npm run test -- --coverage",
-    "postinstall": "rm -rf .cache && node postinstall.js"
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "start": "sirv public",
+    "test": "jest"
   },
-  "dependencies": {},
   "devDependencies": {
-    "@babel/core": "^7.2.0",
-    "@babel/plugin-transform-modules-commonjs": "^7.6.0",
-    "@babel/polyfill": "^7.6.0",
-    "@babel/preset-env": "^7.6.2",
-    "babel-jest": "^26.0.1",
-    "jest": "^26.0.1",
-    "parcel-bundler": "^1.12.4",
-    "parcel-plugin-svelte": "^4.0.4",
-    "svelte": "^3.12.1",
-    "svelte-jest": "^0.3.0"
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "@rollup/plugin-commonjs": "^12.0.0",
+    "@rollup/plugin-node-resolve": "^8.0.0",
+    "@testing-library/svelte": "^3.0.0",
+    "babel-jest": "^26.1.0",
+    "jest": "^26.1.0",
+    "rollup": "^2.3.4",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-livereload": "^1.0.0",
+    "rollup-plugin-svelte": "^5.0.3",
+    "rollup-plugin-terser": "^5.1.2",
+    "sirv-cli": "^0.4.4",
+    "svelte": "^3.24.0",
+    "svelte-jester": "^1.0.6",
+    "svelte-preprocess": "^4.0.8"
   },
-  "keywords": [
-    "uses",
-    "svelte",
-    "parcel",
-    "starter",
-    "jest"
-  ],
-  "licence": "MIT",
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "ie 11",
-    "not ie <= 10"
-  ],
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "node": "current"
+          }
+        }
+      ]
+    ]
+  },
   "jest": {
     "transform": {
-      "\\.js$": "babel-jest",
-      "\\.svelte$": "svelte-jest"
+      "^.+\\.svelte$": "svelte-jester",
+      "^.+\\.js$": "babel-jest"
     },
     "moduleFileExtensions": [
       "js",
-      "json",
       "svelte"
     ]
   }

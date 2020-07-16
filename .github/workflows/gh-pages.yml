@@ -19,13 +19,11 @@ jobs:
     - name: Build
       run: |
         npm ci
-        npm run postinstall
-        npm run build:ci
-        touch dist/.nojekyll
+        npm run build
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v2.4.0
       env:
         ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
         PUBLISH_BRANCH: gh-pages
-        PUBLISH_DIR: ./dist
+        PUBLISH_DIR: ./public

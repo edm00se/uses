@@ -63,7 +63,6 @@
 		flex-direction: column;
 		justify-content: center;
 	}
-
 	.stuff {
 		/* display: grid; */
 		/* grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); */
@@ -73,28 +72,23 @@
 		margin-left: auto;
 		margin-right: auto;
 	}
-
 	.category {
 		text-align: left;
 		min-width: 20em;
 	}
-
 	.category h3 {
 		text-align: center;
 	}
-
 	h1 {
 		font-weight: 100;
 		text-align: center;
 	}
-
 	a {
 		color: #d07922;
 	}
 	ul {
 		list-style: none;
 	}
-
 	@media screen and (max-width:690px) {
 		.stuff {
 			text-align: center;
