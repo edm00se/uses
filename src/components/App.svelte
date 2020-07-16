@@ -33,7 +33,7 @@
 			<ul>
 				<li><a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>, for all the obvious reasons</li>
 				<li><a href="https://www.netlify.com/" target="_blank" rel="noopener noreferrer">netlify</a>, when I can</li>
-				<li><a href="https://now.sh/" target="_blank" rel="noopener noreferrer">now (zeit)</a>, also when I can</li>
+				<li><a href="https://vercel.com/" target="_blank" rel="noopener noreferrer">vercel<s>now (zeit)</s></a>, also when I can</li>
 				<li><a href="https://nodejs.org/en/" target="_blank" rel="noopener noreferrer">node.js</a>, JavaScript for the server and tooling</li>
 				<li><a href="https://www.npmjs.com/" target="_blank" rel="noopener noreferrer">npm</a>, because it's official and darned good</li>
 			</ul>
