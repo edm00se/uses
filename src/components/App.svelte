@@ -46,7 +46,8 @@
 				<li><a href="https://www.hermanmiller.com/products/seating/office-chairs/aeron-chairs/" target="_blank" rel="noopener noreferrer">Herman Miller Aeron chair</a></li>
 				<li>sitting/standing desk</li>
 				<li><a href="https://www.nikonusa.com/en/nikon-products/product/dslr-cameras/d7500.html" target="_blank" rel="noopener noreferrer">Nikon D7500</a>, for photography</li>
-				<li><a href="https://www.creality3d.shop/collections/cr-series/products/creality-cr-10-3d-printer-prusa-i3-diy-kit-aluminum-large-print-size-300x300x400mm"  target="_blank" rel="noopener noreferrer">Creality CR-10</a>, for 3D printing</li>
+				<li><a href="https://www.creality3dofficial.com/products/creality-cr-10-3d-printer" target="_blank" rel="noopener noreferrer">Creality CR-10</a>, for 3D printing</li>
+				<li><a href="https://www.raspberrypi.org/">Raspberry Pi</a> with <a href="https://octoprint.org/">Octoprint</a>, along with <a href="https://cloud.raise3d.com/">RaiseCloud</a>, for smart 3D printer control and remote management</li>
 			</ul>
 		</div>
 
@@ -57,9 +58,9 @@
 <style>
 	.wrapper {
 		height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
 	}
 
 	.stuff {
@@ -68,12 +69,12 @@
 		display: flex;
 		flex-wrap: wrap;
 		max-width: 48rem;
-    margin-left: auto;
-    margin-right: auto;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	.category {
-    text-align: left;
+		text-align: left;
 		min-width: 20em;
 	}
 
@@ -96,7 +97,7 @@
 	@media screen and (max-width:690px) {
 		.stuff {
 			text-align: center;
-    	display: block;
+			display: block;
 		}
 	}
 </style>
