@@ -48,6 +48,7 @@
 				<li><a href="https://www.nikonusa.com/en/nikon-products/product/dslr-cameras/d7500.html" target="_blank" rel="noopener noreferrer">Nikon D7500</a>, for photography</li>
 				<li><a href="https://www.creality3dofficial.com/products/creality-cr-10-3d-printer" target="_blank" rel="noopener noreferrer">Creality CR-10</a>, for 3D printing</li>
 				<li><a href="https://www.raspberrypi.org/">Raspberry Pi</a> with <a href="https://octoprint.org/">Octoprint</a>, along with <a href="https://cloud.raise3d.com/">RaiseCloud</a>, for smart 3D printer control and remote management</li>
+				<li><a href="https://ultimaker.com/software/ultimaker-cura">Cura</a> and <a href="https://www.ideamaker.io/">ideaMaker</a>, for slicing 3D models into gcode to print</li>
 			</ul>
 		</div>
 
