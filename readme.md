@@ -1,6 +1,6 @@
 # /uses
 
-Built from [edm00se/svelte3-parcel-starterstarter](https://github.com/edm00se/svelte3-parcel-starter).
+~Built from [edm00se/svelte3-parcel-starterstarter](https://github.com/edm00se/svelte3-parcel-starter).~ Rebuilt from the svelte rollup starter, due to (marginal) performance reasons.
 
 [![NPM Test Status](https://github.com/edm00se/uses/workflows/Node.js%20Testing/badge.svg)](https://github.com/edm00se/uses/actions?workflow=Node.js+Testing) [![GitHub Pages Deploy Status](https://github.com/edm00se/uses/workflows/Deploy%20to%20GitHub%20Pages/badge.svg)](https://github.com/edm00se/uses/actions?workflow=Deploy+to+GitHub+Pages)
 
