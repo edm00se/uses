@@ -12,8 +12,8 @@
 
 ## Usage
 
-- `npm run dev` - parcel's development server
-- `npm run build` - production build, builds to `dist/`
+- `npm run dev` - rollup development server
+- `npm run build` - production build, can optionally serve its output with `npm start`
 - `npm test` - runs jest
 
 ## Contributing
