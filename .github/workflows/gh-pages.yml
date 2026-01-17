@@ -6,24 +6,35 @@ on:
     - master
 
 jobs:
-  build-deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v6
 
     - name: Setup Node
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v6
       with:
-        node-version: 16
+        node-version: lts/Krypton
         cache: 'npm'
 
     - name: Build
       run: |
         npm ci
         npm run build
+    - name: Upload Artifact
+      uses: actions/upload-pages-artifact@v4
 
-    - name: Deploy 🚀
-      uses: JamesIves/github-pages-deploy-action@4.1.5
-      with:
-        branch: gh-pages
-        folder: public
+  deploy:
+    needs: build
+    permissions:
+      pages: write
+      id-token: write
+      actions: read
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
