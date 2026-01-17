@@ -18,4 +18,5 @@ jobs:
           node-version: lts/Krypton
           cache: 'npm'
       - run: npm ci
+      - run: npx playwright install chromium
       - run: npm test
