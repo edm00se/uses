@@ -1,6 +1,6 @@
 # /uses
 
-~Built from [edm00se/svelte3-parcel-starterstarter](https://github.com/edm00se/svelte3-parcel-starter).~ Rebuilt from the svelte rollup starter, due to (marginal) performance reasons.
+Rebuilt from the Svelte demo starter, powered by [`sv`](https://github.com/sveltejs/cli).
 
 [![NPM Test Status](https://github.com/edm00se/uses/workflows/Node.js%20Testing/badge.svg)](https://github.com/edm00se/uses/actions?workflow=Node.js+Testing) [![GitHub Pages Deploy Status](https://github.com/edm00se/uses/workflows/Deploy%20to%20GitHub%20Pages/badge.svg)](https://github.com/edm00se/uses/actions?workflow=Deploy+to+GitHub+Pages)
 
@@ -27,9 +27,9 @@
 ## Credits
 
 - [svelte](https://svelte.dev/)
-- [svelte template](https://github.com/sveltejs/template)
-- [jest](https://jestjs.io/)
-- [svelte-jest](https://github.com/ktsn/svelte-jest)
+- [vite](https://vite.dev/)
+- [vitest](https://vitest.dev/)
+- [vitest-browser-svelte](https://github.com/vitest-community/vitest-browser-svelte)
 
 ## License
 
