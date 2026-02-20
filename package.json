@@ -21,7 +21,7 @@
 		"@fontsource/fira-mono": "^5.2.7",
 		"@neoconfetti/svelte": "^2.2.2",
 		"@sveltejs/adapter-static": "^3.0.10",
-		"@sveltejs/kit": "^2.49.1",
+		"@sveltejs/kit": "^2.53.0",
 		"@sveltejs/vite-plugin-svelte": "^6.2.1",
 		"@types/node": "^24",
 		"@vitest/browser-playwright": "^4.0.15",
