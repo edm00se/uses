@@ -3,28 +3,28 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-    - master
+      - master
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v6
+      - uses: actions/checkout@v6
 
-    - name: Setup Node
-      uses: actions/setup-node@v6
-      with:
-        node-version: lts/Krypton
-        cache: 'npm'
+      - name: Setup Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: lts/Krypton
+          cache: 'npm'
 
-    - name: Build
-      run: |
-        npm ci
-        npm run build
-    - name: Upload Artifact
-      uses: actions/upload-pages-artifact@v4
-      with:
-        path: build
+      - name: Build
+        run: |
+          npm ci
+          npm run build
+      - name: Upload Artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: build
 
   deploy:
     needs: build
